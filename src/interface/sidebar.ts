@@ -1,0 +1,4 @@
+
+interface SideBar {
+    menu : []
+}
