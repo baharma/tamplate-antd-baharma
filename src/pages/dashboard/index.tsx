@@ -1,14 +1,7 @@
+import Dashboard from "../../layout/dashboard";
 
-import Dashboard from '../../layout/dashboard'
+const DashboardPage = () => {
+  return <Dashboard>test</Dashboard>;
+};
 
-
-const DashboardPage = () =>{
-    return (
-        <Dashboard>
-            test
-        </Dashboard>
-    )
-} 
-
-
-export default DashboardPage
+export default DashboardPage;

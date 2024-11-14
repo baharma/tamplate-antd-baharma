@@ -1,4 +1,4 @@
 
-interface SideBar {
+export interface SideBarInterfga {
     menu : []
 }
