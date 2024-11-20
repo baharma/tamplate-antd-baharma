@@ -18,11 +18,23 @@ export const dataSidebar: MenuItemType[] = [
     link: "/ecommerce",
     icon: <FileOutlined />,
     children: [
-      { label: "Analytics", link: "/ecommerce/analytics", icon: <DashboardOutlined /> },
-      { label: "Marketing", link: "/ecommerce/marketing", icon: <DashboardOutlined /> },
+      {
+        label: "Analytics",
+        link: "/ecommerce/analytics",
+        icon: <DashboardOutlined />,
+      },
+      {
+        label: "Marketing",
+        link: "/ecommerce/marketing",
+        icon: <DashboardOutlined />,
+      },
       { label: "CRM", link: "/ecommerce/crm", icon: <DashboardOutlined /> },
-      { label: "Stocks", link: "/ecommerce/stocks", icon: <DashboardOutlined /> },
-    ]
+      {
+        label: "Stocks",
+        link: "/ecommerce/stocks",
+        icon: <DashboardOutlined />,
+      },
+    ],
   },
   {
     label: "Calendar",
@@ -40,8 +52,12 @@ export const dataSidebar: MenuItemType[] = [
     icon: <FileOutlined />,
     children: [
       { label: "Today", link: "/tasks/today", icon: <CalendarOutlined /> },
-      { label: "Upcoming", link: "/tasks/upcoming", icon: <CalendarOutlined /> },
-    ]
+      {
+        label: "Upcoming",
+        link: "/tasks/upcoming",
+        icon: <CalendarOutlined />,
+      },
+    ],
   },
   {
     label: "Support",
@@ -51,6 +67,6 @@ export const dataSidebar: MenuItemType[] = [
       { label: "Messages", link: "/support/messages", icon: <MailOutlined /> },
       { label: "Inbox", link: "/support/inbox", icon: <MailOutlined /> },
       { label: "Invoice", link: "/support/invoice", icon: <MailOutlined /> },
-    ]
-  }
+    ],
+  },
 ];
